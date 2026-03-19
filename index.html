@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>netflix</title>
+</head>
+<body>
+  <!--header-->
+
+  <header class="header">
+       <nav class="menu">
+        <ul>
+    <li><a href="#inicio">inicio</a></li>
+    <li><a href="#series">series</a></li>
+    <li><a href="#filmes">filmes</a></li>
+    <li><a href="#minha lista">minha lista</a></li>
+        </ul>
+    </nav>
+     <div class="header-right">
+     <img src="img/user.jpeg" alt="perfil" class="profile">
+    </div>
+  </header>
+  <!--banner-->
+    <section class="banner">
+
+        <div class="overlay"></div>
+
+     <div class="banner-content">
+            <h1>Filmes Destaque</h1>
+            <p>Um filme incrivel que você precisa assistir hoje.</p>
+                 <div class="buttons">
+         <button class="btn-play"> Assistir</button>
+         <button class="btn-info"> Minha lista</button>
+    </div>
+        </div>
+    </section>
+        
+      <!--filmes-->  
+    <section class="row">
+        <h2>Populares</h2>
+    <div class="posters">
+
+   <div class="card">
+  <img src="img/filme1.jpeg" alt="">
+  <div class="card-info">
+    <h4>YOU</h4>
+  </div>
+   </div>
+
+  <div class="card">
+  <img src="img/filme2.jpeg" alt="">
+  <div class="card-info">
+    <h4>UNCHARTED</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme3.jpeg" alt="">
+  <div class="card-info">
+    <h4>LUCIFER</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme4.jpeg" alt="">
+  <div class="card-info">
+    <h4>HOMEM ARANHA </h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme5.jpeg" alt="">
+  <div class="card-info">
+    <h4>GAMBITO DA RAINHA</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme6.jpeg" alt="">
+  <div class="card-info">
+    <h4>ARCANE</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme7.jpeg" alt="">
+  <div class="card-info">
+    <h4>PEAKY BLINDERS</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme8.jpeg" alt="">
+  <div class="card-info">
+    <h4>VIKINGS</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme9.jpeg" alt="">
+  <div class="card-info">
+    <h4>BREAKING BAD</h4>
+  </div>
+</div>
+
+<div class="card">
+  <img src="img/filme10.jpeg" alt="">
+  <div class="card-info">
+    <h4>IT</h4>
+  </div>
+</div>
+</div>
+    
+</section>
+<!--footer-->
+    <footer>
+      <p> &copy;projeto feito por Alonso Favero Filho - 2026</p>
+    </footer>
+
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector(".header");
+            header.classList.toggle("scrolled", window.scrollY > 50);
+        });
+    </script>
+    
+</body>
+</html>
