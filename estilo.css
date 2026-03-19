@@ -40,6 +40,7 @@
 /*conteudo do banner*/
 
 .banner{
+    min-height: 60vh;
     height: 90vh;
     background-image: url(img/banner.jpeg);
     background-size: cover;
@@ -259,9 +260,13 @@ header{
     }
     .banner{
         height: 70vh;
+        padding: 30px;
     }
     .banner h1 {
         font-size: 25px;
+    }
+    .banner p{
+        font-size: 14px;
     }
 
     .posters img {
